@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.header {
+    /* este estilo é um gradiente que começa do meio para as pontas */
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row {
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px 0 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.navbar nav ul {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* animação dos links do nav */
+.navbar nav ul li a:hover {
+    font-weight: 600;
+    color: #563434;
+    text-decoration: underline;
+}
+
+p {
+    color: #555;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 45%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+/* estilo a animação do menu */
+.menu {
+    display: none;
+    grid-auto-flow: column;
+    width: 1250px;
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul li {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #f4f0f0;
+    background: #ff523b;
+    padding: 0 2px;
+    border-radius: 0 5px;
+} 

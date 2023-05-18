@@ -1,14 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
+    <title>E-commerce | RedStore</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <div class="container">
+            <!-- menu superior -->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="" onmouseenter="pClose()">Home</a></li>
+                        <li><a href="" onmouseenter="pEnter()">Products</a></li>
+                        <li><a href="" onmouseenter="pClose()">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png">
+            </div>
+
+            <div class="menu" id="menuProduto" onmouseleave="pClose()">
+                <div>
+                    <h4>ROUPAS</h4>
+                    <ul>
+                        <li><a href="">Blusas e Camisetas</a></li>
+                        <li><a href="">Calças</a></li>
+                        <li><a href="">Calças Jeans</a></li>
+                        <li><a href="">Camisas</a></li>
+                        <li><a href="">Casacos e Jaquetas</a></li>
+                        <li><a href="">Moda Praia</a></li>
+                        <li><a href="">Moletom</a></li>
+                        <li><a href="">Lingerie</a></li>
+                        <li><a href="">Shorts e Bermudas</a></li>
+                        <li><a href="">Vestidos</a></li>
+                        <h5><a href="">Ver tudo</a></h5>
+                    </ul>
+                </div>
+                <div>
+                    <h4>CALÇADOS</h4>
+                    <ul>
+                        <li><a href="">+ Conforto</a></li>
+                        <li><a href="">Botas</a></li>
+                        <li><a href="">Chinelos</a></li>
+                        <li><a href="">Coturnos</a></li>
+                        <li><a href="">Mocassim</a></li>
+                        <li><a href="">Rasteirinhas</a></li>
+                        <li><a href="">Sandálias</a></li>
+                        <li><a href="">Sapatilhas</a></li>
+                        <li><a href="">Scarpin</a></li>
+                        <li><a href="">Tamanco</a></li>
+                        <li><a href="">Tênis</a></li>
+                        <h5><a href="">Ver tudo</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>ACESSÓRIOS</h4>
+                    <ul>
+                        <li><a href="">Bijuterias</a></li>
+                        <li><a href="">Bolsas</a></li>
+                        <li><a href="">Carteiras</a></li>
+                        <li><a href="">Cintos</a></li>
+                        <li><a href="">Mochilas e Malas</a></li>
+                        <li><a href="">Óculos</a></li>
+                        <li><a href="">Relógios</a></li>
+                        <h5><a href="">Ver tudo</a></h5>
+                    </ul>
+                </div>
+                <div>
+                    <h4>ESPORTE</h4>
+                    <ul>
+                        <li><a href="">Bolsas e Acessórios</a></li>
+                        <li><a href="">Camisetas</a></li>
+                        <li><a href="">Calças e Leggings</a></li>
+                        <li><a href="">Jaquetas</a></li>
+                        <li><a href="">Maiô de Natação</a></li>
+                        <li><a href="">Roupa de Academia</a></li>
+                        <li><a href="">Shorts e Bermudas</a></li>
+                        <li><a href="">Tênis Esportivo</a></li>
+                        <li><a href="">Tops</a></li>
+                        <h5><a href="">Ver tudo</a></h5>
+                    </ul>
+                </div>
+                <div>
+                    <h4>MARCAS</h4>
+                    <ul>
+                        <li><a href="">Adidas</a></li>
+                        <li><a href="">Calvin Klein</a></li>
+                        <li><a href="">Capodarte</a></li>
+                        <li><a href="">Colcci</a></li>
+                        <li><a href="">Forever 21</a></li>
+                        <li><a href="">Jorge Bischoff</a></li>
+                        <li><a href="">Lança Perfume</a></li>
+                        <li><a href="">Mango</a></li>
+                        <li><a href="">Nike</a></li>
+                        <li><a href="">Santa Lolla</a></li>
+                        <li><a href="">TOPSHOP</a></li>
+                        <h5><a href="">Ver tudo</a></h5>
+                    </ul>
+                </div>
+                <div>
+                    <h4>EM ALTA</h4>
+                    <ul>
+                        <li><a href="">Bota Western</a></li>
+                        <li><a href="">Brilho</a></li>
+                        <li><a href="">Calça Cargo</a></li>
+                        <li><a href="">Coleção Boho</a></li>
+                        <li><a href="">Make Up</a></li>
+                        <li><a href="">Mocassim</a></li>
+                        <li><a href="">Puffers</a></li>
+                        <li><a href="">Top Bolsas</a></li>
+                        <h5><a href="">Total Jeans</a></h5>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br>A New Style!</h1>
+                    <p>Success isn't always about greatness. It's about
+                        consistency. <br>Consistent hard work gains success.
+                        greatness
+                        will come.
+                    </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------- featured categories ---------->
+
+
+    <!---- javascript ----->
     <script src="index.js"></script>
 </body>
+
 </html>
