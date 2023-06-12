@@ -152,6 +152,36 @@ p {
     border-radius: 0 5px;
 }
 
+
+
+/* ---------------- animação ----------------- */
+[data-anime] {
+    opacity: 0;
+    transition: 1s;
+}
+
+[data-anime="down"] {
+    transform: translate3d(0, -100%, 0);
+}
+
+[data-anime="up"] {
+    transform: translate3d(0, 100%, 0);
+}
+
+[data-anime="left"] {
+    transform: translate3d(-100%, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+
 /* ---------------- categories -------------- */
 .categories {
     margin: 70px 0;
@@ -408,7 +438,10 @@ ul {
     .row {
         text-align: center;
     }
-    .col-2, .col-3, .col-4 {
+
+    .col-2,
+    .col-3,
+    .col-4 {
         flex-basis: 100%;
     }
 }
